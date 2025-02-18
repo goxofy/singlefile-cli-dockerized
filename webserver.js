@@ -40,6 +40,6 @@ app.post('/', (req, res) => {
     });
 });
 
-app.listen(80, '0.0.0.0', () => {
-    console.log('Server running on port 80');
+app.listen(6880, '0.0.0.0', () => {
+    console.log('Server running on port 6880');
 }); 
